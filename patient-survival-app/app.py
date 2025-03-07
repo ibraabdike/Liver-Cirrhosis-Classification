@@ -5,10 +5,10 @@ from sklearn.ensemble import RandomForestClassifier
 import joblib
 
 # Load the trained model
-model = joblib.load("best_model1.pkl")
+model = joblib.load("patient-survival-app/best_model1.pkl")
 
 # Load the preprocessor 
-preprocessor = joblib.load("preprocessor1.pkl")
+preprocessor = joblib.load("patient-survival-app/preprocessor1.pkl")
 
 # Define the app title and layout
 st.title("Cirrhosis Patient Survival Prediction App")
